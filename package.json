@@ -1,0 +1,19 @@
+{
+  "name": "restful-booker-api-tests",
+  "version": "1.0.0",
+  "description": "API tests for Restful-Booker",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:open": "cypress open",
+    "test:api": "cypress run --spec 'cypress/e2e/restful_booker.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "@bahmutov/cy-api": "^2.0.0"
+  }
+}
